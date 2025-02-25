@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* background-image: linear-gradient(to top, #de6438, #cc5b2e, #ba5123, #a84819, #973f0f, #89380c, #7b3209, #6d2b06, #5e2508, #501f08, #421a07, #341505) */
+
+/* reiniciar a pagina margem, espaço entre linhas e borda da pagina */
+:root{
+   --numberone: #C577EE;
+   --numbertwo: #6F14AA;
+   --numberthree: #1F0534;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    
+    background-color:rgb(100, 105, 109);
+    background-image: linear-gradient(to top, #570f6b, #702f8a, #894ca9, #a269ca, #bc87ec);
+    background-image: url("/house-of-the-dragon-syrax.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+    color: rgb(132, 132, 132);
+
+
+
+
+
+
+
+
+
+
+}
+
+header, h1{
+    width: 100vw;
+    height: 15vh;
+    background-color: aqua;
+    text-align: end;
+}
+
+menu,ul{
+    width: 100vw;
+    height: 15px;
+    background-color: #ffffff;
+    text-align: center;
+    
+}
+
+li{
+
+}
+
+section{
+    width: 100vw;
+    height: auto;
+    background-color: olive;
+}
+footer{
+    width: 100vw;
+    height: 15px;
+    background-color: #a269ca;
+}
+p{
+   color: #ffffff; 
+   font-style: italic;
+   text-align: center;
+}
